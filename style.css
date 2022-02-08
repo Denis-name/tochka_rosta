@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container1 {
+    max-height: 703.84px;
+}
+
+.payment_title {
+    margin-top: 96px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #14173D;
+}
+
+.payment_subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #14173D;
+}
+
+.direction {
+    display: flex;
+    width: 1129, 37px;
+    justify-content: space-evenly;
+}
+
+.line {
+    position: absolute;
+    width: 957.98px;
+    height: 68.69px;
+    top: 315.72px;
+    right: 325px;
+}
+
+.block_item {
+    width: 192px;
+}
+
+h3::before {
+    content: '';
+    display: flex;
+    margin: 0;
+    background: #f7f6fb;
+    width: 122.51px;
+    height: 122.51px;
+    border-radius: 50%;
+    margin-bottom: 21.2px;
+    position: relative;
+    z-index: 1;
+}
+
+.direction_img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 124px;
+    margin-left: 23px;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.direction_title {
+    /* height: 30px; */
+    left: 411.04px;
+    top: 477.54px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    color: #14173D;
+}
+
+.direction_title2 {
+    padding-right: 33px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #696B7A;
+}
+
+.btn_direction {
+    border: 6px solid #f7f6fb;
+    color: #4947a7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    background-color: Transparent;
+    width: 197.18px;
+    height: 59.28px;
+    border-radius: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30.94px;
+    margin-bottom: 100.07px;
+}
+
+.section2 {
+    background: #F7F6FB;
+    max-width: 1920px;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote_title {
+    margin-top: 65.54px;
+    width: 540.32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 40px;
+    align-items: center;
+    color: #14173D;
+}
+
+.quote_descr {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #4F5161;
+}
+
+.logo_payment {
+    width: 555.69px;
+    height: 244.74px;
+}
